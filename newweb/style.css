@@ -1,0 +1,355 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: url('cur2.png'), auto;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+
+}
+
+.page1 {
+    height: 100vh;
+    width: 100%;
+    background-color: beige;
+    position: relative;
+
+}
+
+#cursor {
+    height: 5vw;
+    width: 5vw;
+    background-color: orangered;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 2;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+
+
+.page1 video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+#page1content {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+#page1content h1 {
+    font-family: "Kode Mono";
+    font-size: 270px;
+
+}
+
+#page1content nav {
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.382);
+    border-radius: 4rem;
+    height: 90px;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+#page1content nav h3 {
+    font-family: "Anta", sans-serif;
+    font-size: 25px;
+}
+
+
+#exp {
+    margin-left: 20px;
+    font-weight: lighter;
+}
+
+#exp:hover {
+    font-size: 27px;
+    transition: 0.2s;
+    color: orangered;
+}
+
+#lore {
+    margin-right: 20px;
+    font-weight: lighter;
+}
+
+#lore:hover {
+    font-size: 27px;
+    transition: 0.2s;
+    color: orangered;
+}
+
+.page2 {
+    height: 450px;
+    background-color: beige;
+}
+
+#para {
+    width: 90%;
+    height: 50%;
+    text-align: center;
+    margin: 30px auto;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#page2top {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Anta";
+    padding: 0px 35px;
+    font-size: 25px;
+}
+
+.page23 {
+    height: 200px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    margin-top: -50px;
+}
+
+.page23 h4 {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.page23 h2 {
+    font-size: 50px;
+    font-family: "Anta", sans-serif;
+    font-weight: lighter;
+}
+
+.page23 span {
+    background-color: black;
+    font-size: 17px;
+    color: beige;
+    padding: 9px;
+    border-radius: 3rem;
+}
+
+#page3 {
+    height: 100vh;
+    width: 100%;
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+}
+
+.page3divs {
+    height: 70%;
+    width: 34%;
+    text-align: center;
+    margin: 20px;
+    border-radius: 3rem;
+    position: relative;
+}
+
+.page3divs video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.page3divs img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all ease 1s;
+
+}
+
+.page3divs:hover img {
+    opacity: 0;
+}
+
+.page4 {
+    height: 100vh;
+    width: 100vw;
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page4 video {
+    height: 100%;
+    z-index: 1;
+    object-fit: cover;
+}
+
+#cursor2 {
+    height: 5vw;
+    width: 7vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 6;
+    color: white;
+    font-family: "Anta", sans-serif;
+    font-weight: lighter;
+    font-size: 300px;
+}
+
+.page4 svg {
+    position: absolute;
+    height: 12.5%;
+    z-index: 100;
+}
+
+.page5 {
+    height: 100vh;
+    background-color: beige;
+}
+
+.page5 h1 {
+    font-family: "Anta", sans-serif;
+    font-weight: lighter;
+    font-size: 100px;
+    width: 94%;
+    margin-left: 3%;
+    border-bottom: 2px solid black;
+}
+
+#swipe {
+    margin-top: 1.5%;
+    height: 50%;
+    background-color: beige;
+}
+
+.swiper {
+    width: 120%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background-color: beige;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 18%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.loader {
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 30px;
+    font-family: "Anta";
+    font-weight: lighter;
+
+}
+
+footer {
+    background-color: rgb(13, 8, 8);
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footleft {
+    height: 100%;
+    width: 50%;
+    /* background-color: red; */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footleft ul li {
+    padding-top: 10px;
+    list-style: none;
+    font-size: 25px;
+    font-family: "Anta";
+    color: beige;
+
+}
+
+.footright {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footright img {
+    margin-top: 5%;
+    height: 120%;
+    object-fit: cover;
+}
+
+.foot {
+    margin-top: 10px;
+    height: 60%;
+    width: 100%;
+    display: flex;
+
+}
+
+.last {
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: rgba(255, 255, 255, 0.67);
+}
+
+.last h1 {
+    font-size: 200px;
+    margin-bottom: -60px;
+    font-family: "Anta";
+}
